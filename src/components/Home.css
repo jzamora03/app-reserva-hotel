@@ -1,0 +1,63 @@
+/* src/components/Home.css */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del texto */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Apila los botones verticalmente */
+  align-items: center; /* Centra los botones horizontalmente */
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px; /* Ajusta el padding para hacer los botones más compactos */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  max-width: 200px; /* Limita el ancho máximo del botón */
+  display: block; /* Asegura que los botones se ajusten al contenido */
+  text-align: center; /* Centra el texto dentro del botón */
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+}
+
+.button-register {
+  background-color: #28a745; /* Color diferente para el botón de registro */
+}
+
+.button-register:hover {
+  background-color: #218838;
+}
